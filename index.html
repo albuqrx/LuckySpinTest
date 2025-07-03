@@ -100,8 +100,8 @@ document.addEventListener('DOMContentLoaded', function () {
     Telegram.WebApp.expand();
 
     setTimeout(() => {
-      if (Telegram.WebApp.initDataRaw) {
-        console.log("✅ Telegram initDataRaw найден:", Telegram.WebApp.initDataRaw);
+      if (Telegram.WebApp.initData) {
+        console.log("✅ Telegram initDataRaw найден:", Telegram.WebApp.initData);
         window.initDataString = Telegram.WebApp.initData;
       } else {
         console.warn("⛔ initDataRaw не найден!");
