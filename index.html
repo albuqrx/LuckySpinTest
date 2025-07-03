@@ -100,7 +100,7 @@ body {
       Telegram.WebApp.expand();
 
       // Сохраняем полную подписанную строку initData
-      window.initDataString = Telegram.WebApp.initData;
+     window.initDataString = Telegram.WebApp.initDataRaw;
 
       // (Опционально) Инициализируем также распарсенные данные для UI
       const u = Telegram.WebApp.initDataUnsafe.user || {};
