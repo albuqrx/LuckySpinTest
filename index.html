@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(() => {
       if (Telegram.WebApp.initDataRaw) {
         console.log("✅ Telegram initDataRaw найден:", Telegram.WebApp.initDataRaw);
-        window.initDataString = Telegram.WebApp.initDataRaw;
+        window.initDataString = Telegram.WebApp.initData;
       } else {
         console.warn("⛔ initDataRaw не найден!");
       }
